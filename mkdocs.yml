@@ -1,0 +1,55 @@
+site_name: Billings Meshtastic Community
+theme:
+  name: material
+  logo: assets/images/logo.png
+  favicon: assets/images/favicon.png
+  features:
+    - search.suggest
+    - search.highlight
+    - search.share
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.tabs.sticky
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep orange
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep orange
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+site_url: https://billingsmesh.com
+repo_name: billingsmesh-site
+repo_url: https://github.com/Billings-Meshtastic-Community/billingsmesh-site
+
+plugins:
+  - offline
+  - search
+
+markdown_extensions: 
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_javascript:
+  - assets/js/nodeData.js # Node Info
+
+copyright: Copyright &copy; 2025 Billings Meshtastic Community
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/SKmsDCraTV
+    - icon: fontawesome/brands/github
+      link: https://github.com/Billings-Meshtastic-Community
