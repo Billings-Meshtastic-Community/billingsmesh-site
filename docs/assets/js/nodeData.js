@@ -28,9 +28,9 @@ async function getNodes() {
 //   const nodes24hr = json.filter(node => now - new Date(node.updated_at) <= TWENTY_FOUR_HOURS).length;
 //
 
-    const nodes30min = 69;
-    const nodes2hr = 420;
-    const nodes24hr = 42069;
+    const nodes30min = "Soon™";
+    const nodes2hr = "Soon™";
+    const nodes24hr = "Soon™";
   document.getElementById('nodes30min').textContent = nodes30min;
   document.getElementById('nodes2hr').textContent = nodes2hr;
   document.getElementById('nodes24hr').textContent = nodes24hr;
